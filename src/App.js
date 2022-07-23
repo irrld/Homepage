@@ -208,15 +208,20 @@ export default function App() {
                             <div className="mt-6 grid grid-cols-1 gap-8 md:grid-cols-3 lg:grid-cols-3">
 
                                 <div className="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
-                                    <img
-                                        className="h-16"
-                                        src="/img/partners/nethergames.png"
-                                        alt="NetherGames"
-                                    />
+                                    <a href="https://nethergames.org">
+                                        <img
+                                            className="h-16"
+                                            src="/img/partners/nethergames.png"
+                                            alt="NetherGames"
+                                        />
+                                    </a>
+
                                 </div>
 
                                 <div className="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
+                                    <a href="https://gommehd.net">
                                     <img className="h-16" src="/img/partners/gommehd.png" alt="GommeHD"/>
+                                    </a>
                                 </div>
                                 <div
                                     className="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
