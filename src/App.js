@@ -210,19 +210,19 @@ export default function App() {
                                 <div className="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
                                     <img
                                         className="h-16"
-                                        src="https://cdn.nethergames.org/img/logo/double-line-dark.png"
+                                        src="/img/partners/nethergames.png"
                                         alt="NetherGames"
                                     />
                                 </div>
 
                                 <div className="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
-                                    <img className="h-16" src="https://img.gommehd.net//logo.png" alt="GommeHD"/>
+                                    <img className="h-16" src="/img/partners/gommehd.png" alt="GommeHD"/>
                                 </div>
                                 <div
                                     className="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
                                     <img
                                         className="h-16"
-                                        src="https://media.discordapp.net/attachments/767333162652008468/943255594859630612/hl_1044x365.png"
+                                        src="/img/partners/hyperlands.png"
                                         alt="Hyperlands"
                                     />
                                 </div>
