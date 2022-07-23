@@ -203,7 +203,7 @@ export default function App() {
                     <div className="bg-gray-100">
                         <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
                             <p className="text-center text-sm font-semibold uppercase text-gray-500 tracking-wide">
-                                Powering some of the most popular Minecraft: Bedrock Edition servers
+                                Powering some of the most popular Minecraft: Bedrock Edition servers (<span style={{fontSize: "11px"}} className="text-indigo-600"><a href="https://forms.gle/HeTz6AZpmXc1QLZP9">Request Partner</a></span>)
                             </p>
                             <div className="mt-6 grid grid-cols-1 gap-8 md:grid-cols-3 lg:grid-cols-3">
 
