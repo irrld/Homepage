@@ -224,7 +224,9 @@ export default function App() {
                                     </a>
                                 </div>
                                 <div className="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
+                                    <a href="https://craftersmc.net/">
                                         <img className="h-16" src="/img/partners/crafters.png" alt="Crafters Network"/>
+                                    </a>
                                 </div>
                                 <div
                                     className="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
