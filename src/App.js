@@ -205,7 +205,7 @@ export default function App() {
                             <p className="text-center text-sm font-semibold uppercase text-gray-500 tracking-wide">
                                 Powering some of the most popular Minecraft: Bedrock Edition servers (<span style={{fontSize: "11px"}} className="text-indigo-600"><a href="https://forms.gle/HeTz6AZpmXc1QLZP9">Request Partner</a></span>)
                             </p>
-                            <div className="mt-6 grid grid-cols-1 gap-8 md:grid-cols-3 lg:grid-cols-3">
+                            <div className="mt-6 grid grid-cols-1 gap-8 md:grid-cols-4 lg:grid-cols-4">
 
                                 <div className="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
                                     <a href="https://nethergames.org">
@@ -222,6 +222,9 @@ export default function App() {
                                     <a href="https://gommehd.net">
                                     <img className="h-16" src="/img/partners/gommehd.png" alt="GommeHD"/>
                                     </a>
+                                </div>
+                                <div className="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
+                                        <img className="h-16" src="/img/partners/crafters.png" alt="Crafters Network"/>
                                 </div>
                                 <div
                                     className="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
