@@ -200,7 +200,6 @@ export default function App() {
                         </div>
                     </div>
 
-                    {/* Logo cloud */}
                     <div className="bg-gray-100">
                         <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
                             <p className="text-center text-sm font-semibold uppercase text-gray-500 tracking-wide">
@@ -232,7 +231,7 @@ export default function App() {
                     </div>
                 </div>
 
-                <div className="py-12 bg-white">
+                <div className="py-12 bg-white" id="features">
                     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                         <div className="lg:text-center">
                             <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
@@ -291,10 +290,14 @@ export default function App() {
                     </div>
                 </div>
 
-                <div className="relative">
-                    <div className="h-56 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2 p-3">
+                <div className="relative" id="community">
+                    <div className="h-auto md:absolute md:left-0 md:h-full md:w-1/2 p-3 flex justify-center items-center">
                         <img
-                            className="w-full h-full rounded rounded-2xl"
+                            style={{
+                                width: 659,
+                                maxHeight: 879
+                            }}
+                            className="h-full block rounded rounded-2xl"
                             src="/img/Discord.png"
                             alt=""
                         />
