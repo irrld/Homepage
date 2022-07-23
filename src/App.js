@@ -82,7 +82,7 @@ export default function App() {
                                         <span className="sr-only">WaterdogPE</span>
                                         <img
                                             className="h-8 w-auto sm:h-10"
-                                            src="https://github.com/WaterdogPE/Branding/raw/master/logo/Waterdog_Logo_Github.png"
+                                            src="/img/WDLogo.png"
                                             alt="Waterdog Logo"
                                         />
                                         <div className="-mr-2 flex items-center md:hidden">
@@ -124,7 +124,7 @@ export default function App() {
                                         <div>
                                             <img
                                                 className="h-8 w-auto"
-                                                src="https://github.com/WaterdogPE/Branding/raw/master/logo/Waterdog_Logo_Github.png"
+                                                src="/img/WDLogo.png"
                                                 alt="WaterdogPE Logo"
                                             />
                                         </div>
@@ -278,7 +278,7 @@ export default function App() {
                             </dl>
                         </div>
                     </div>
-                    <div className="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
+                    <div className="mt-10 mb-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
                         <div className="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-1 sm:gap-5">
                             <a
                                 href="https://docs.waterdog.dev"
