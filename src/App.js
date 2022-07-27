@@ -208,7 +208,7 @@ export default function App() {
                             <div className="mt-6 grid grid-cols-1 gap-8 md:grid-cols-4 lg:grid-cols-4">
 
                                 <div className="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
-                                    <a href="https://nethergames.org" target="_blank">
+                                    <a href="https://nethergames.org" target="_blank" rel="noreferrer">
                                         <img
                                             className="h-16"
                                             src="/img/partners/nethergames.png"
@@ -219,12 +219,12 @@ export default function App() {
                                 </div>
 
                                 <div className="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
-                                    <a href="https://gommehd.net" target="_blank">
+                                    <a href="https://gommehd.net" target="_blank" rel="noreferrer">
                                     <img className="h-16" src="/img/partners/gommehd.png" alt="GommeHD"/>
                                     </a>
                                 </div>
                                 <div className="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
-                                    <a target="_blank" href="https://craftersmc.net/">
+                                    <a target="_blank" href="https://craftersmc.net/" rel="noreferrer">
                                         <img className="h-16" src="/img/partners/crafters.png" alt="Crafters Network"/>
                                     </a>
                                 </div>
