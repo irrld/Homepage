@@ -355,6 +355,27 @@ export default function App() {
                         </a>
                     </div>
                 </div>
+
+                <div className="bg-gray-100">
+                    <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
+                        <p className="text-center text-sm font-semibold uppercase text-gray-500 tracking-wide">
+                            Our sponsors: Tools that make WaterdogPE even better
+                        </p>
+                        <div className="mt-6 grid grid-cols-1 gap-8 md:grid-cols-4 lg:grid-cols-4">
+                            <div className={"md:grid-span-1"}></div>
+                            <div className="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
+                                <a href="https://www.yourkit.com/" target="_blank" rel="noreferrer">
+                                    <img className="h-16" src="/img/sponsors/yourkit.png" alt="YourKit Profiler OSS"/>
+                                </a>
+                            </div>
+                            <div className="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
+                                <a target="_blank" href="https://bugsnag.com/" rel="noreferrer">
+                                    <img className="h-16" src="/img/sponsors/bugsnag.png" alt="Bugsnag.com"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </main>
 
             <footer className="bg-white">
