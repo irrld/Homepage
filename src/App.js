@@ -218,11 +218,7 @@ export default function App() {
 
                                 </div>
 
-                                <div className="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
-                                    <a href="https://gommehd.net" target="_blank" rel="noreferrer">
-                                    <img className="h-16" src="/img/partners/gommehd.png" alt="GommeHD"/>
-                                    </a>
-                                </div>
+                            
                                 <div className="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
                                     <a target="_blank" href="https://craftersmc.net/" rel="noreferrer">
                                         <img className="h-16" src="/img/partners/crafters.png" alt="Crafters Network"/>
